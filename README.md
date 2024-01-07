@@ -1,7 +1,7 @@
 ## ::: Base Skeleton for Data-Science Projects :::
 
 ### Steps to run this Bare-Bones Template: 
-| **Note**: Operates exclusively within the 'Git Bash' environment.
+**{Note}**: Operates exclusively within the 'Git Bash' environment.
 
 1. Run below command 
 ```bash
@@ -27,6 +27,8 @@ conda activate venv/
 pytest -v
 tox
 ```
+-|- Modify the 'setup.cfg' and 'setup.py' files according to the specific requirements of the project.
+
 ---
 
 The base skeleton for a data science project typically includes the following components:

@@ -12,9 +12,9 @@ def get_requirements(file_path):
     return requirements
 
 
-PROJECT_NAME = "Bare_Bones"
+PROJECT_NAME = <YOUR_PROJECT_NAME>
 VERSION = "0.0.1"
-DESCRIPTION = "The basic structure that ensures a systematic and reproducible approach to data science projects."
+DESCRIPTION = <PROJECT_DESCRIPTION>
 AUTHOR = "NarenBot"
 AUTHOR_EMAIL = "narendas10@gmail.com"
 
