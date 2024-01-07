@@ -1,5 +1,6 @@
 from setuptools import setup, find_packages
 import os
+from template import project_name
 
 
 def get_requirements(file_path):
@@ -12,9 +13,9 @@ def get_requirements(file_path):
     return requirements
 
 
-PROJECT_NAME = <YOUR_PROJECT_NAME>
+PROJECT_NAME = project_name
 VERSION = "0.0.1"
-DESCRIPTION = <PROJECT_DESCRIPTION>
+DESCRIPTION = "<ENTER THE DESCRIPTION HERE>"
 AUTHOR = "NarenBot"
 AUTHOR_EMAIL = "narendas10@gmail.com"
 

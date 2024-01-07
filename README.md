@@ -11,7 +11,7 @@ python template.py
 
 -|- Include modules or packages in the requirements.txt file according to the specific requirements of your project.
 
--|- Modify the 'setup.cfg' and 'setup.py' files according to the specific requirements of the project.
+-|- Modify the 'setup.cfg' and 'setup.py' files according to the specific requirements(project_name_description) of the project.
 
 2. Run below command
 ```bash
