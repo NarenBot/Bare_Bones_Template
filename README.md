@@ -11,6 +11,8 @@ python template.py
 
 -|- Include modules or packages in the requirements.txt file according to the specific requirements of your project.
 
+-|- Modify the 'setup.cfg' and 'setup.py' files according to the specific requirements of the project.
+
 2. Run below command
 ```bash
 bash init_setup.sh
@@ -27,7 +29,7 @@ conda activate venv/
 pytest -v
 tox
 ```
--|- Modify the 'setup.cfg' and 'setup.py' files according to the specific requirements of the project.
+<br>
 
 ---
 
