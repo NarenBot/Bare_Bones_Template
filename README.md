@@ -29,7 +29,21 @@ conda activate venv/
 pytest -v
 tox
 ```
+
+### Steps to deploy the package to PyPI:
+ - Create an account on PyPI and obtain the API token.
+ - Add the acquired token to the GitHub secrets for secure storage.
+ - In the setup.py file, introduce two parameters: long_description and long_description_content_type then comment out the line corresponding to the "install_requires" parameter.
+ - Initialize the release on GitHub.
+ - Include a python-publish.yml file and publish it.
+
 <br>
+
+### Steps to follow proof-of-concept (POC) project:
+   - Run the command: python template.py
+   - Please eliminate the following - temp.log, tests folder, setup.cfg, pyproject.toml, and tox.ini files.
+   - In setup.py file change value as "." on "package_dir" parameter.
+   - Run the command: bash init_setup.sh
 
 ---
 

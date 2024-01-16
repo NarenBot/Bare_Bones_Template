@@ -15,9 +15,9 @@ def get_requirements(file_path):
     return requirements
 
 
-PROJECT_NAME = "naren_api"
-VERSION = "0.0.5"
-DESCRIPTION = "A small python package"
+PROJECT_NAME = ""
+VERSION = "0.0.0"
+DESCRIPTION = ""
 AUTHOR = "NarenBot"
 AUTHOR_EMAIL = "narendas10@gmail.com"
 
@@ -29,7 +29,7 @@ setup(
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
-    package_dir={"": "src"},  # "src"
-    packages=find_packages(where="src"),  # "where='src'"
-    # install_requires=get_requirements("requirements.txt"),
+    package_dir={"": "."},  # "src"
+    packages=find_packages(),  # "where='src'"
+    install_requires=get_requirements("requirements.txt"),
 )
