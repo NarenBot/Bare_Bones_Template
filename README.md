@@ -40,11 +40,11 @@ tox
 <br>
 
 ### Steps to follow proof-of-concept (POC) project:
-   - Run the command: python template.py
+   - Run the command: "python template.py"
    - Please eliminate the following - tests folder, pyproject.toml, README.md, requirements_dev.txt, setup.cfg, temp.log, template.py and tox.ini files.
-   - Add LONG_DESCRIPTION in README.md and PROJECT_NAME in setup.py file.
+   - Add LONG_DESCRIPTION in README.md, PROJECT_NAME in setup.py and PACKAGES in requirements.txt file.
    - In setup.py file change value as "." on "package_dir" parameter.
-   - Run the command: bash init_setup.sh
+   - Run the command: "bash init_setup.sh" and Activate the environment.
 
 ---
 
